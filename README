@@ -1,7 +1,7 @@
 1.prepare
-  one macbook pro
+  	one macbook pro
 2.install
-	2.1	install PostgreSQL
+	2.1 install PostgreSQL
 
 	1)open a terminal, run 
 	brew install postgresql -v
@@ -37,7 +37,7 @@
 	open a termial tab, run commands
 	4.1 add four new users
 
-    localhost:postgres fredlee$ curl -XPOST -d '{"name":"user1"}' "http://localhost:8080/users"
+	 localhost:postgres fredlee$ curl -XPOST -d '{"name":"user1"}' "http://localhost:8080/users"
 	{"id":"1","name":"user1","type":"user"}
 
 	localhost:postgres fredlee$ curl -XPOST -d '{"name":"user2"}' "http://localhost:8080/users"
